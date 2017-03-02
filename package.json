@@ -2,9 +2,8 @@
   "name": "p25",
   "version": "0.1.0",
   "description": "pomodoro",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin":{
+    "p25":"bin/p25.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +12,10 @@
   "keywords": [
     "pomodoro"
   ],
-  "author": "",
+  "author": {
+    "name":"Thassio Victor",
+    "email":"tvmcarvalho@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://gitlab.com/thassiov/p25/issues"
