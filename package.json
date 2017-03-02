@@ -1,0 +1,27 @@
+{
+  "name": "p25",
+  "version": "0.1.0",
+  "description": "pomodoro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/thassiov/p25.git"
+  },
+  "keywords": [
+    "pomodoro"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/thassiov/p25/issues"
+  },
+  "homepage": "https://gitlab.com/thassiov/p25#README",
+  "dependencies": {
+    "async": "^2.1.5",
+    "bunyan": "^1.8.5",
+    "vorpal": "^1.11.4"
+  }
+}
