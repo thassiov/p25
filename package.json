@@ -2,8 +2,11 @@
   "name": "p25",
   "version": "0.1.0",
   "description": "pomodoro",
-  "bin":{
-    "p25":"bin/p25.js"
+  "scripts": {
+    "start": "node bin/p25.js"
+  },
+  "bin": {
+    "p25": "bin/p25.js"
   },
   "repository": {
     "type": "git",
@@ -13,8 +16,8 @@
     "pomodoro"
   ],
   "author": {
-    "name":"Thassio Victor",
-    "email":"tvmcarvalho@gmail.com"
+    "name": "Thassio Victor",
+    "email": "tvmcarvalho@gmail.com"
   },
   "license": "MIT",
   "bugs": {
@@ -24,6 +27,12 @@
   "dependencies": {
     "async": "^2.1.5",
     "bunyan": "^1.8.5",
-    "vorpal": "^1.11.4"
+    "chalk": "^1.1.3",
+    "draftlog": "^1.0.9",
+    "rfr": "^1.2.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
