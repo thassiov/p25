@@ -17,7 +17,7 @@ in the terminal.
   <path/to/dir>/p25> node bin/p25.js
 `
 
-[![asciicast](https://asciinema.org/a/14.png)](https://asciinema.org/a/14)
+[![asciicast](https://asciinema.org/a/106483.png)](https://asciinema.org/a/106483)
 
 # LICENSE
 [MIT](LICENSE.md)
