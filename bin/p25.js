@@ -20,7 +20,7 @@ setInterval(function() {
 }, 500);
 
 /**
- * @desc Adds 25 minutes to the current time
+ * @desc Adds minutes to the current time
   * @param current {Object} The current time
   * @param minutes {Number} Minutes to add
   * @return Date object
