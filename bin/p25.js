@@ -6,13 +6,17 @@
 
 'use strict';
 
+// Injecting console with draftlog
+require('draftlog').into(console);
+
 const curr = new Date();
 const pomodoro = plusMinutes(curr, 25);
 
+let timeUpdate = console.draft();
+
 setInterval(function() {
   const rem = timeRemaining(pomodoro);
-  console.log('Remaining:');
-  console.log(rem.min + 'm' + rem.sec + 's');
+  timeUpdate('Remaining: ' + rem.min + 'm' + rem.sec + 's');
 }, 500);
 
 /**
