@@ -1,7 +1,5 @@
 'use strict';
 
-//const DraftLog = require('draftlog').into(console);
-
 const curr = new Date();
 const pomodoro = plus25m(curr);
 
@@ -9,7 +7,7 @@ console.log(curr);
 console.log(pomodoro);
 
 /**
- * @desc Adds 25 minutes to time based on the current time
+ * @desc Adds 25 minutes to the current time
   * @param current {Object} The current time
   * @return Date object
   */
