@@ -7,7 +7,7 @@
 'use strict';
 
 const curr = new Date();
-const pomodoro = plus25m(curr);
+const pomodoro = plusMinutes(curr, 25);
 
 setInterval(function() {
   const rem = timeRemaining(pomodoro);
@@ -18,10 +18,11 @@ setInterval(function() {
 /**
  * @desc Adds 25 minutes to the current time
   * @param current {Object} The current time
+  * @param minutes {Number} Minutes to add
   * @return Date object
   */
-function plus25m(current) {
-  return new Date(current.getTime() + 25*60000);
+function plusMinutes(current, minutes) {
+  return new Date(current.getTime() + minutes*60000);
 }
 
 
