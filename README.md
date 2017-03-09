@@ -4,7 +4,7 @@ This project was made for testing purposes. It uses
 [node-draftlog](https://github.com/ivanseidel/node-draftlog) to update the data
 in the terminal.
 
-## How to use it
+## How to use
 
 ```bash
 
