@@ -13,7 +13,7 @@ setInterval(function() {
   const rem = timeRemaining(pomodoro);
   console.log('Remaining:');
   console.log(rem.min + 'm' + rem.sec + 's');
-}, 200);
+}, 500);
 
 /**
  * @desc Adds 25 minutes to the current time
