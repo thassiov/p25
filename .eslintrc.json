@@ -1,11 +1,4 @@
 {
-  "extends": [
-    "airbnb-base",
-    "plugin:jest/recommended"
-  ],
-  "plugins": [
-    "jest"
-  ],
   "env": {
     "es6": true,
     "node": true
@@ -26,12 +19,6 @@
       "off"
     ],
     "one-var": [
-      "off"
-    ],
-    "import/prefer-default-export": [
-      "warn"
-    ],
-    "import/no-unresolved": [
       "off"
     ]
   }
