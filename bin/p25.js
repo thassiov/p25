@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * @author Thassio Victor <tvmcarvalho@gmail.com>
   * @desc It's a pomodoro. :)
