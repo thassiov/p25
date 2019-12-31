@@ -5,7 +5,7 @@ function BuildTimeOutput() {
   const display = chalkAnimation.pulse(content);
 
   return function TimeOutput(timeObj) {
-    const { minutes, seconds, label, id } = timeObj;
+    const { minutes, seconds, label } = timeObj;
 
     content = `${label} \n${minutes}m:${seconds}s`;
 
