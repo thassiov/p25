@@ -1,27 +1,40 @@
-# P25 - A TUI pomodoro
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/thassiov/p25/master/png" alt="thassiov" width="200">
+  <br>
+  nddc
+  <br>
+</h1>
 
-This project was made for testing purposes. It uses
-[node-draftlog](https://github.com/ivanseidel/node-draftlog) to update the data
-in the terminal.
+<h3 align="center">P25 - A simple pomodoro for the terminal</h3>
 
-## How to use
+<p align="center">
+[![CircleCI](https://circleci.com/gh/thassiov/p25/tree/master.svg?style=svg)](https://circleci.com/gh/thassiov/p25/tree/master)
+</p>
 
-```bash
+## Installation
 
-  # clone it
-  git clone git@github.com:thassiov/p25.git <path/to/a/dir>
+`npm install -g p25-pomodoro`
 
-  # install its dependencies (chalk and draftlog)
-  <path/to/dir>/p25> npm install
+## How to use it
 
-  # start with npm
-  <path/to/dir>/p25> npm start
+Simply run `p25` and the clock will start to tick. The default duration is [25 minutes](https://en.wikipedia.org/wiki/Pomodoro_Technique).
 
-  # start it directly
-  <path/to/dir>/p25> node bin/p25.js
+You can set a custom value for the timer (in minutes).
 
 ```
-[![asciicast](https://asciinema.org/a/106483.png)](https://asciinema.org/a/106483)
+# 15 minutes
+$ p25 15
+# 30 minutes
+$ p25 30
+```
+
+You can also set a label for the timer (just because)
+
+```
+# label: "this is a pomodoro application"
+$ p25 30 this is a pomodoro application
+```
 
 # LICENSE
 [MIT](LICENSE.md)
