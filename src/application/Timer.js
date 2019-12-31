@@ -2,7 +2,7 @@
 
 function BuildTimer({ output }) {
   return function Timer(pomodoro) {
-    setInterval(() => {
+    setInterval(function() {
       const { minutes, seconds } = timeRemaining(pomodoro);
 
       if (minutes === 0 && seconds === 0) {
