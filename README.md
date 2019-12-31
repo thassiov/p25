@@ -33,5 +33,5 @@ You can also set a label for the timer (just because)
 p25 30 this is a pomodoro application
 ```
 
-# LICENSE
+<h4>LICENSE</h4>
 [MIT](LICENSE.md)
