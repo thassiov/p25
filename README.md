@@ -1,15 +1,12 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/thassiov/p25/master/png" alt="thassiov" width="200">
-  <br>
-  nddc
-  <br>
+  <img src="https://raw.githubusercontent.com/thassiov/p25/master/logo.png" alt="p25" width="200">
 </h1>
 
 <h3 align="center">P25 - A simple pomodoro for the terminal</h3>
 
 <p align="center">
-[![CircleCI](https://circleci.com/gh/thassiov/p25/tree/master.svg?style=svg)](https://circleci.com/gh/thassiov/p25/tree/master)
+<img src="https://circleci.com/gh/thassiov/p25.svg?style=svg">
 </p>
 
 ## Installation
