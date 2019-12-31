@@ -19,18 +19,18 @@ Simply run `p25` and the clock will start to tick. The default duration is [25 m
 
 You can set a custom value for the timer (in minutes).
 
-```
+```bash
 # 15 minutes
-$ p25 15
+p25 15
 # 30 minutes
-$ p25 30
+p25 30
 ```
 
 You can also set a label for the timer (just because)
 
-```
+```bash
 # label: "this is a pomodoro application"
-$ p25 30 this is a pomodoro application
+p25 30 this is a pomodoro application
 ```
 
 # LICENSE
