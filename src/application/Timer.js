@@ -1,15 +1,12 @@
 'use strict';
 
-const chalk = require('chalk');
-
 function BuildTimer({ output }) {
   return function Timer(pomodoro) {
-    setInterval(function() {
+    setInterval(() => {
       const { minutes, seconds } = timeRemaining(pomodoro);
 
-      // time's up
       if (minutes === 0 && seconds === 0) {
-        console.log(chalk.bold(chalk.red('POMODORO!')));
+        // time's up
         clearInterval(this);
       }
 
@@ -42,5 +39,3 @@ function timeRemaining(pomodoro) {
     seconds: sec
   };
 }
-
-

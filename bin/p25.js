@@ -6,6 +6,13 @@
 
 'use strict';
 
-const timer = require('../src/application');
+const p25 = require('../src/application');
 
-timer(30, '');
+p25.start(...parseArgs());
+
+function parseArgs() {
+  const duration = !isNaN(process.argv[2]) ? parseInt(process.argv[2]) : 25;
+  const label = process.argv.slice(3).join(' ') || '';
+
+  return [duration, label];
+}

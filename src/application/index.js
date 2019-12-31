@@ -1,11 +1,11 @@
-const BuildTimeOutput = require('./TimeOutput');
 const BuildTimer = require('./Timer');
+const BuildTimeOutput = require('./TimeOutput');
 const makePomodoro = require('../core/models/pomodoro');
 
 const output = BuildTimeOutput();
 const timer = BuildTimer({ output });
 
-function Timer(duration, label) {
+function start(duration, label) {
   const pomodoro = makePomodoro({
     duration,
     label
@@ -14,4 +14,8 @@ function Timer(duration, label) {
   timer(pomodoro);
 }
 
-module.exports = Timer;
+const p25 = Object.freeze({
+  start
+});
+
+module.exports = p25;
