@@ -26,12 +26,12 @@ p25 15
 p25 30
 ```
 
-You can also set a label for the timer (just because)
+You can also set a label for the timer
 
 ```bash
 # label: "this is a pomodoro application"
 p25 30 this is a pomodoro application
 ```
 
-<h4>LICENSE</h4>
+## LICENSE
 [MIT](LICENSE.md)
