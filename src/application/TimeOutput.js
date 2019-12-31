@@ -7,7 +7,7 @@ function BuildTimeOutput() {
   return function TimeOutput(timeObj) {
     const { minutes, seconds, label, id } = timeObj;
 
-    content = `${label} (id:${id})\n\t${minutes}m:${seconds}s`;
+    content = `${label} \n${minutes}m:${seconds}s`;
 
     display.replace(content);
   };
