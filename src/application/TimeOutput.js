@@ -1,15 +1,14 @@
-const chalkAnimation = require('chalk-animation');
-
 function BuildTimeOutput() {
   let content = '';
-  const display = chalkAnimation.pulse(content);
 
   return function TimeOutput(timeObj) {
     const { minutes, seconds, label } = timeObj;
 
-    content = `${label} \n${minutes}m:${seconds}s`;
+    content = `${label} ${minutes}m:${seconds}s`;
 
-    display.replace(content);
+    process.stdout.clearLine();
+    process.stdout.cursorTo(0);
+    process.stdout.write(content);
   };
 }
 

@@ -26,9 +26,6 @@
     "url": "https://gitlab.com/thassiov/p25/issues"
   },
   "homepage": "https://gitlab.com/thassiov/p25#README",
-  "dependencies": {
-    "chalk-animation": "^1.6.0"
-  },
   "devDependencies": {
     "chai": "^3.5.0",
     "husky": "^2.7.0",

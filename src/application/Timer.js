@@ -12,7 +12,7 @@ function BuildTimer({ output }) {
 
       const content = {
         minutes: minutes < 10 ? `0${minutes}` : minutes,
-        seconds: seconds < 10 ? `0${minutes}` : seconds,
+        seconds: seconds < 10 ? `0${seconds}` : seconds,
         label: pomodoro.getLabel()
       };
 
