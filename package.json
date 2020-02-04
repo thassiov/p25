@@ -1,6 +1,6 @@
 {
   "name": "p25-pomodoro",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "pomodoro",
   "scripts": {
     "start": "node bin/p25.js",
