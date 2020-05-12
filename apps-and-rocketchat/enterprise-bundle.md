@@ -21,5 +21,11 @@ echo 'You got to trust me on this, I saved the world'
 ```
 {% endcode %}
 
+And then:
 
+![ye](../.gitbook/assets/duck.jpg)
+
+### Yay
+
+![](../.gitbook/assets/pdt_ft1_194484.jpg)
 
