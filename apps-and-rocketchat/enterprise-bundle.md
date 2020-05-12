@@ -29,3 +29,9 @@ And then:
 
 ![](../.gitbook/assets/pdt_ft1_194484.jpg)
 
+Here's \[dj khaled\]another one\[/dj khaled\]:
+
+![](https://picsum.photos/200/300)
+
+This is an image provided by a link \(like this **-&gt;** [https://picsum.photos/200/300](https://picsum.photos/200/300)\)
+
